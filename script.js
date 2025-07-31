@@ -17,7 +17,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
   e.preventDefault();
   alert("Thank you! Your message has been received.");
 });
-const scriptURL = "https://docs.google.com/spreadsheets/d/1rR0FoEfFoZlByL9anJyG_md-16_smM-nE_bBik7wtxM/edit?gid=0#gid=0";
+const scriptURL = "https://script.google.com/macros/s/AKfycbwMqFqbFjs79_OFOSJBMWGx7PBZr1NDz6L5W6TMd2hV7fmpG-kh6216oZ7TTsNtYcOU/exec";
 
 document.getElementById("contact-form").addEventListener("submit", function (e) {
   e.preventDefault();
