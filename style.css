@@ -18,15 +18,17 @@ header {
   color: rgb(0, 0, 0);
   padding: 1rem 2rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   animation: slideIn 1s ease forwards;
+  text-align: center;
 }
 
 /* Navigation */
 nav ul {
   list-style: none;
-  display: flex;
+  display:flex;
   gap: 1rem;
 }
 
